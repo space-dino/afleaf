@@ -10,12 +10,26 @@ body {
     background: linear-gradient(30deg, rgb(201, 105, 188), rgb(190, 137, 221));
 }
 
+@font-face {
+    font-family: 'SueEllenFrancisco';
+    src: url('/fonts/Sue_Ellen_Francisco/SueEllenFrancisco-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+
 p, a {
     text-shadow: 0 2px 0 black;
+    font-family: "SueEllenFrancisco";
+    font-weight: 400;
+    font-size: 2em
 }
 
 h1 {
-    text-shadow: 0 3px 0 black;
+    text-shadow: 0 5px 0 black;
+    font-family: "SueEllenFrancisco";
+    font-size: 4em;
+    font-weight: 800;
 }
 
 p, h1 {
